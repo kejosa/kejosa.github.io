@@ -8722,6 +8722,10 @@ a.text-info:focus {
   color: #008fa1 !important;
 }
 
+.special li{
+    color:white !important;
+}
+
 .text-warning {
   color: #ffeb3b !important;
 }
@@ -11007,6 +11011,18 @@ label {
   -o-transition: all 150ms ease 0s;
   -ms-transition: all 150ms ease 0s;
   transition: all 150ms ease 0s;
+}
+
+.card-pricing ul{
+    -webkit-padding-start: 0px;
+}
+
+.card-pricing ul li{
+    list-style:none;
+    color: #999;
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 1px solid hsla(0,0%,60%,.3);
 }
 
 .animation-transition-fast,
@@ -14783,7 +14799,9 @@ h2.title {
 }
 
 .text-info {
-  color: #00bcd4 !important;
+  color: white !important;
+  font-size: 1.25em;
+  
 }
 
 .text-rose {
@@ -16226,6 +16244,7 @@ footer .pull-center {
 
 .card .card-title {
   margin-top: 0.625rem;
+    text-align:center;
 }
 
 .card .card-title:last-child {
